@@ -1,0 +1,80 @@
+:root {
+  --lime-green: #34eb92;
+  --lime-green-hover: #298a5b;
+  --diamond: #1bb9ae;
+}
+.mtitle {
+  text-align: center;
+  margin: 3rem auto;
+}
+.mtitle img {
+  width: 5vw;
+  margin-right: 1rem;
+}
+.mtitle span {
+  font-size: 30px;
+  font-weight: bold;
+  font-size: 3.4rem;
+}
+.box {
+  color: var(--black);
+  width: 80%;
+  background-color: var(--white);
+  margin: 1rem auto;
+  padding: 1rem;
+  box-shadow: 0px 0px 10px 1px var(--white);
+}
+.box h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.box p {
+  margin: 1rem 0;
+}
+.ptitle {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  align-items: center;
+  color: var(--diamond);
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.ptitle img {
+  width: 1.7rem;
+}
+.box a,
+.box a:visited {
+  color: var(--lime-green);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.box a:hover {
+  color: var(--lime-green-hover);
+}
+.inputbox {
+  display: block;
+  margin: 0.1rem auto;
+  display: flex;
+}
+.inputbox select {
+  padding: 0.2rem;
+  outline: 0;
+  border: 0;
+}
+.inputbox select:focus {
+  outline: 1px solid var(--lime-green);
+}
+.inputbox button {
+  color: var(--black);
+  background-color: var(--lime-green);
+  padding: 0.2rem;
+}
+.inputbox button:hover {
+  cursor: pointer;
+  background-color: var(--lime-green-hover);
+}

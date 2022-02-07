@@ -1,0 +1,24 @@
+body {
+  overflow: hidden;
+}
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50vh auto;
+}
+.error * {
+  font-size: 5vw;
+}
+img {
+  width: 5vw;
+  margin-right: 1rem;
+}
+.number {
+  color: #ff0000;
+}
+.number,
+.text {
+  text-decoration: underline;
+  font-style: italic;
+}

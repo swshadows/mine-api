@@ -1,6 +1,40 @@
-html 
-    head 
-        title HOMEPAGE 
-    body 
-        h1 Teste de Homepage
-        button(onclick="alert('clickado')") BOTÃO DE TESTE
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title MineAPI
+    link(rel="stylesheet" href="css/index.css")
+    link(rel="stylesheet" href="css/template.css")
+    link(rel="shortcut icon" href="assets/favicons/index.png") 
+  body 
+    h1.mtitle
+      img(src="assets/img/creeper_head.png")
+      span Bem-vindo a MineAPI
+    .box
+      h3 Documentação
+    .box
+      p.ptitle: Mobs
+        img(src="assets/img/diamond.webp")
+      p Todos os mobs:
+        a(target="_blank" href="/api/mobs/all") /api/mobs/all
+      p Passivos:
+        a(target="_blank" href="/api/mobs/passive") /api/mobs/passive
+      p Agressivos:
+        a(target="_blank" href="/api/mobs/aggressive") /api/mobs/aggressive
+      p Por nome:
+        .inputbox
+          select#nameSelect
+            for mob, i in mobs
+              option= mob.name
+          button(onclick="parseLink(this.parentElement)") GET
+    .box 
+      p.ptitle Encantamentos 
+        img(src="assets/img/diamond.webp")
+      p EM CONSTRUÇÃO
+    .box 
+      p.ptitle Poções
+        img(src="assets/img/diamond.webp")
+      P EM CONSTRUÇÃO
+      script(src="js/index.js") 

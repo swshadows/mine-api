@@ -12,14 +12,18 @@ mongoose
 app.set("view engine", "pug");
 app.set("views", "./views");
 
-const mobs = require("./routes/mobs");
-const index = require("./routes/index");
-
-app.use("/api/mobs", mobs);
-app.use("/", index);
-
+app.use(express.static("public"));
+app.use("/api/mobs", express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+const index = require("./routes/index");
+const mobs = require("./routes/mobs");
+const notfount = require("./routes/404");
+
+app.use("/", index);
+app.use("/api/mobs", mobs);
+app.use("*", notfount);
 
 const port = process.env.PORT || 3000;
 app.listen(port, (req, res) => {

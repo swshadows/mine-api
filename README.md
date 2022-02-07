@@ -4,32 +4,26 @@
 
 ### :warning: _Ainda em desenvolvimento_ :warning:
 
----
-
-**Para importar o banco de dados, utilize o comando** (É necessário ter o MongoDB [Server](https://www.mongodb.com/try/download/community) e [Tools](https://www.mongodb.com/try/download/database-tools) instalado)
-
-```
-mongoimport --db mine-api --collection mobs --type json --file mobs.json --jsonArray
-mongoimport --db mine-api --collection enchants --type json --file enchants.json --jsonArray
-mongoimport --db mine-api --collection potions --type json --file potions.json --jsonArray
-```
-
-**Você também pode utilizar o MongoDB [Compass](https://www.mongodb.com/try/download/compass) para importar**
-
-## To-dos
+## To-Dos
 
 ---
 
-[ ] Encantamentos  
-[ ] Poções  
-[ ] Mobs
+- [x] Mobs
+- [ ] Encantamentos
+- [ ] Poções
 
-<!--
-## Endpoints
+## Requisitos
+
 ---
 
-`/api/?`
-`/api/?`
-`/api/?` -->
+[NodeJS](https://nodejs.org/en/) - [Git](https://git-scm.com)
 
-# Obrigado por testar meu projeto! :smile:
+## Utilização
+
+---
+
+1. Clone o projeto com o comando `git clone https://github.com/swshadows/mine-api.git`
+2. Acesse a pasta clonada e instale as dependencias com o comando `npm install`
+3. Inicialize o servidor com o comando `npm start`
+4. Acesse `http://localhost:3000` para acessar a interface
+5. Obrigado por testar meu projeto! :smile:

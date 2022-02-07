@@ -1,0 +1,18 @@
+:root {
+  --white: #eee;
+  --black: #111;
+}
+@font-face {
+  font-family: "Dogica";
+  src: url(../assets/fonts/dogica.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 25px "Dogica", sans-serif;
+}
+body {
+  background-color: var(--black);
+  color: var(--white);
+}
