@@ -10,15 +10,15 @@
 
 ---
 
-- [x] Mobs
-- [ ] Encantamentos
+- [x] ~~Mobs~~
+- [x] ~~Encantamentos~~
 - [ ] Poções
 
 ## Requisitos
 
 ---
 
-[NodeJS](https://nodejs.org/en/) - [Git](https://git-scm.com) - [MongoDB](https://www.mongodb.com)
+[NodeJS](https://nodejs.org/en/) - [MongoDB](https://www.mongodb.com) - [Git](https://git-scm.com)
 
 ## Utilização
 
