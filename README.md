@@ -31,7 +31,7 @@
 
 ```
 mongoimport --db mine-api --collection mobs --type json --file mobs.json --jsonArray
-mongoimport --db mine-api --collection enchants --type json --file enchants.json --jsonArray
+mongoimport --db mine-api --collection enchantments --type json --file enchantments.json --jsonArray
 mongoimport --db mine-api --collection potions --type json --file potions.json --jsonArray
 ```
 

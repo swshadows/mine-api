@@ -15,7 +15,7 @@ html(lang="en")
     .box
       h3 Documentação
     .box
-      p.ptitle: Mobs
+      p.ptitle Mobs
         img(src="assets/img/diamond.webp")
       p Todos os mobs:
         a(target="_blank" href="/api/mobs/all") /api/mobs/all
@@ -25,14 +25,23 @@ html(lang="en")
         a(target="_blank" href="/api/mobs/aggressive") /api/mobs/aggressive
       p Por nome:
         .inputbox
-          select#nameSelect
+          select#mobSelect
             for mob, i in mobs
               option= mob.name
-          button(onclick="parseLink(this.parentElement)") GET
+          button(onclick="parseLink('mobs')") GET
     .box 
       p.ptitle Encantamentos 
         img(src="assets/img/diamond.webp")
-      p EM CONSTRUÇÃO
+      p Todos os encantamentos:
+        a(target="_blank" href="/api/enchantments/all") /api/enchantments/all
+      p Encantamentos de tesouro:
+        a(target="_blank" href="/api/enchantments/treasure") /api/enchantments/treasure 
+      p Por nome:
+        .inputbox 
+          select#enchantSelect
+            for enchant,i in enchants
+              option= enchant.name
+          button(onclick="parseLink('enchants')") GET
     .box 
       p.ptitle Poções
         img(src="assets/img/diamond.webp")

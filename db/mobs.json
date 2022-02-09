@@ -1,74 +1,578 @@
 [
-  { "name": "Axolotl", "gameID": "minecraft:axolotl", "aggressive": false, "hitpoints": "14", "drops": [], "exp": "1-3" },
-  { "name": "Bat", "gameID": "minecraft:bat", "aggressive": false, "hitpoints": "6", "drops": [], "exp": "0" },
-  { "name": "Bee", "gameID": "minecraft:bee", "aggressive": false, "hitpoints": "10", "drops": [], "exp": "1-3" },
-  { "name": "Blaze", "gameID": "minecraft:blaze", "aggressive": true, "hitpoints": "20", "drops": ["0-1 Blaze Rods"], "exp": "10" },
-  { "name": "Cat", "gameID": "minecraft:cat", "aggressive": false, "hitpoints": "10", "drops": ["0-2 String"], "exp": "1-3" },
-  { "name": "Cave Spider", "gameID": "minecraft:cave_spider", "aggressive": true, "hitpoints": "12", "drops": ["0-2 String", "0-1 Spider Eye"], "exp": "5" },
-  { "name": "Chicken", "gameID": "minecraft:chicken", "aggressive": false, "hitpoints": "4", "drops": ["Eggs", "0-2 Feathers", "Raw Chicken"], "exp": "1-3" },
-  { "name": "Cod", "gameID": "minecraft:cod", "aggressive": false, "hitpoints": "3", "drops": ["1 Raw Cod"], "exp": "0" },
-  { "name": "Cow", "gameID": "minecraft:cow", "aggressive": false, "hitpoints": "10", "drops": ["0-2 Leather", "1-3 Raw Beef", "1-3 Steak (Fire Kill)", "Milk (Bucket)"], "exp": "1-3" },
-  { "name": "Creeper", "gameID": "minecraft:creeper", "aggressive": true, "hitpoints": "20", "drops": ["0-2 Gunpowder", "Music Disc (Skeleton Kill)"], "exp": "5" },
-  { "name": "Dolphin", "gameID": "minecraft:dolphin", "aggressive": false, "hitpoints": "10", "drops": ["0-1 Raw Cod"], "exp": "0" },
-  { "name": "Donkey", "gameID": "minecraft:donkey", "aggressive": false, "hitpoints": "15, up to 30", "drops": ["0-2 Leather"], "exp": "1-3" },
-  { "name": "Drowned", "gameID": "minecraft:drowned", "aggressive": false, "hitpoints": "20", "drops": ["0-2 Rotten Flesh"], "exp": "5" },
-  { "name": "Elder Guardian", "gameID": "minecraft:elder_guardian", "aggressive": true, "hitpoints": "80", "drops": ["0-2 Prismarine Shards", "0-1 Prismarine Crystals", "0-1 Raw Fish", "0-1 Wet Sponge"], "exp": "10" },
-  { "name": "Ender Dragon", "gameID": "minecraft:ender_dragon", "aggressive": true, "hitpoints": "200", "drops": ["Dragon Egg"], "exp": "12000" },
-  { "name": "Enderman", "gameID": "minecraft:enderman", "aggressive": true, "hitpoints": "40", "drops": ["0-1 Ender Pearl"], "exp": "5" },
-  { "name": "Endermite", "gameID": "minecraft:endermite", "aggressive": true, "hitpoints": "8", "drops": [], "exp": "1-3" },
-  { "name": "Evoker", "gameID": "minecraft:evoker", "aggressive": true, "hitpoints": "24", "drops": ["0-1 Totem of Undying", "0-1 Emerald"], "exp": "10" },
-  { "name": "Fox", "gameID": "minecraft:fox", "aggressive": false, "hitpoints": "10", "drops": ["0-1 Emerald", "0-1 Feather", "0-1 Egg", "0-1 Leather", "0-1 Cooked Porkchop", "0-1 Wheat", "0-1 Rabbit Hide", "0-1 Rabbit Foot"], "exp": "1-3" },
-  { "name": "Ghast", "gameID": "minecraft:ghast", "aggressive": true, "hitpoints": "10", "drops": ["0-1 Ghast Tear", "0-2 Gunpowder"], "exp": "10" },
-  { "name": "Glow Squid", "gameID": "minecraft:glow_squid", "aggressive": false, "hitpoints": "10", "drops": ["1-3 Glow Ink Sacs"], "exp": "1-3" },
-  { "name": "Goat", "gameID": "minecraft:goat", "aggressive": false, "hitpoints": "10", "drops": [], "exp": "1-3" },
-  { "name": "Guardian", "gameID": "minecraft:guardian", "aggressive": true, "hitpoints": "30", "drops": ["0-2 Prismarine Shards", "0-1 Prismarine Crystals"], "exp": "10" },
-  { "name": "Hoglin", "gameID": "minecraft:hoglin", "aggressive": true, "hitpoints": "40", "drops": ["2-4 Raw Porkchop", "0-2 Leather"], "exp": "5" },
-  { "name": "Horse", "gameID": "minecraft:horse", "aggressive": false, "hitpoints": "15, up to 30", "drops": ["0-2 Leather"], "exp": "1-3" },
-  { "name": "Husk", "gameID": "minecraft:husk", "aggressive": true, "hitpoints": "20", "drops": ["0-2 Rotten Flesh", "0-1 Carrot", "0-1 Potato"], "exp": "5-7" },
-  { "name": "Illusioner", "gameID": "mminecraft:illusioner", "aggressive": true, "hitpoints": "32", "drops": ["0-1 Bow"], "exp": "0" },
-  { "name": "Iron Golem", "gameID": "minecraft:iron_golem", "aggressive": false, "hitpoints": "100", "drops": ["3-5 Iron Ingot", "0-2 Poppy"], "exp": "0" },
-  { "name": "Llama", "gameID": "minecraft:llama", "aggressive": false, "hitpoints": "15, up to 30", "drops": ["0-2 Leather"], "exp": "1-3" },
-  { "name": "Magma Cube", "gameID": "minecraft:magma_cube", "aggressive": true, "hitpoints": "16 / 4 / 1", "drops": ["0-1 Magma Cream"], "exp": "4 / 2 / 1" },
-  { "name": "Mooshroom", "gameID": "minecraft:mooshroom", "aggressive": false, "hitpoints": "10", "drops": ["0-2 Leather", "1-3 Raw Beef", "1-3 Beef (Fire Kill)", "5 Red Mushrooms (Shears)", "Mushroom Stew (Bowl)", "Milk (Bucket)"], "exp": "1-3" },
-  { "name": "Mule", "gameID": "minecraft:mule", "aggressive": false, "hitpoints": "15, up to 30", "drops": ["0-2 Leather"], "exp": "1-3" },
-  { "name": "Ocelot", "gameID": "minecraft:ocelot", "aggressive": false, "hitpoints": "10", "drops": [], "exp": "1-3" },
-  { "name": "Panda", "gameID": "minecraft:panda", "aggressive": false, "hitpoints": "20", "drops": ["0-2 Bamboo"], "exp": "1-3" },
-  { "name": "Parrot", "gameID": "minecraft:parrot", "aggressive": false, "hitpoints": "6", "drops": ["0-2 Feathers"], "exp": "1-3" },
-  { "name": "Phantom", "gameID": "minecraft:phantom", "aggressive": true, "hitpoints": "20", "drops": ["0-1 Phantom Membrane"], "exp": "5" },
-  { "name": "Pig", "gameID": "minecraft:pig", "aggressive": false, "hitpoints": "10", "drops": ["1-3 Raw Porkchops", "1-3 Cooked Porkchops (Fire Kill)"], "exp": "1-3" },
-  { "name": "Piglin", "gameID": "minecraft:piglin", "aggressive": true, "hitpoints": "16", "drops": ["Equipped Items", "Certain gold items, if picked up"], "exp": "5" },
-  { "name": "Piglin Brute", "gameID": "minecraft:piglin_brute", "aggressive": true, "hitpoints": "50", "drops": ["Golden Axe"], "exp": "20-23 (Java) / 10 (Bedrock)" },
-  { "name": "Pillager", "gameID": "minecraft:pillager", "aggressive": true, "hitpoints": "24", "drops": ["0-1 Emerald", "0-1 Crossbow"], "exp": "5-15" },
-  { "name": "Polar Bear", "gameID": "minecraft:polar_bear", "aggressive": false, "hitpoints": "30", "drops": ["0-2 Raw Fish", "0-2 Raw Salmon"], "exp": "1-3" },
-  { "name": "Pufferfish", "gameID": "minecraft:pufferfish", "aggressive": false, "hitpoints": "3", "drops": ["1 Pufferfish"], "exp": "0" },
-  { "name": "Rabbit", "gameID": "minecraft:rabbit", "aggressive": false, "hitpoints": "3", "drops": ["0-1 Raw Rabbit", "0-1 Rabbit Hide", "0-1 Rabbit Foot"], "exp": "1-3" },
-  { "name": "Ravager", "gameID": "minecraft:ravager", "aggressive": true, "hitpoints": "100", "drops": ["Saddle"], "exp": "10" },
-  { "name": "Salmon", "gameID": "minecraft:salmon", "aggressive": false, "hitpoints": "3", "drops": ["1 Raw Salmon"], "exp": "0" },
-  { "name": "Sheep", "gameID": "minecraft:sheep", "aggressive": false, "hitpoints": "8", "drops": ["1 Wool", "0-2 Raw Mutton", "0-2 Cooked Mutton (Fire Kill)"], "exp": "1-3" },
-  { "name": "Shulker", "gameID": "minecraft:shulker", "aggressive": true, "hitpoints": "30", "drops": ["0-1 Shulker Shell"], "exp": "5" },
-  { "name": "Silverfish", "gameID": "minecraft:silverfish", "aggressive": true, "hitpoints": "8", "drops": [], "exp": "5" },
-  { "name": "Skeleton", "gameID": "minecraft:skeleton", "aggressive": true, "hitpoints": "20", "drops": ["0-2 Bones", "0-2 Arrows", "0-1 Bow", "Eqquiped Armor"], "exp": "5-7" },
-  { "name": "Skeleton Horse", "gameID": "minecraft:skeleton_horse", "aggressive": false, "hitpoints": "53", "drops": ["0-2 Bones"], "exp": "1-3" },
-  { "name": "Slime", "gameID": "minecraft:slime", "aggressive": true, "hitpoints": "16 / 4 / 1", "drops": ["0-2 Slimeballs"], "exp": "4 / 2 / 1" },
-  { "name": "Snow Golem", "gameID": "minecraft:snow_golem", "aggressive": false, "hitpoints": "4", "drops": ["1-10 Snowballs"], "exp": "0" },
-  { "name": "Spider", "gameID": "minecraft:spider", "aggressive": true, "hitpoints": "16", "drops": ["0-2 String", "0-1 Spider Eye"], "exp": "5" },
-  { "name": "Squid", "gameID": "minecraft:squid", "aggressive": false, "hitpoints": "10", "drops": ["1-3 Ink Sacs"], "exp": "1-3" },
-  { "name": "Stray", "gameID": "minecraft:stray", "aggressive": true, "hitpoints": "20", "drops": ["0-2 Bones", "0-2 Arrows"], "exp": "5-7" },
-  { "name": "Strider", "gameID": "minecraft:strider", "aggressive": false, "hitpoints": "20", "drops": ["0-5 String"], "exp": "1-3" },
-  { "name": "Trader Llama", "gameID": "minecraft:trader_llama", "aggressive": false, "hitpoints": "15, up to 30", "drops": ["0-2 Leather"], "exp": "1-3" },
-  { "name": "Tropical Fish", "gameID": "minecraft:tropical_fish", "aggressive": false, "hitpoints": "3", "drops": ["1 Tropical Fish"], "exp": "1-3" },
-  { "name": "Turtle", "gameID": "minecraft:turtle", "aggressive": false, "hitpoints": "30", "drops": ["2 Seagrass"], "exp": "1-3" },
-  { "name": "Vex", "gameID": "minecraft:vex", "aggressive": true, "hitpoints": "14", "drops": [], "exp": "3" },
-  { "name": "Villager", "gameID": "minecraft:villager", "aggressive": false, "hitpoints": "20", "drops": [], "exp": "0" },
-  { "name": "Vindicator", "gameID": "minecraft:vindicator", "aggressive": true, "hitpoints": "24", "drops": ["0-1 Emerald"], "exp": "5" },
-  { "name": "Wandering Trader", "gameID": "minecraft:wandering_trader", "aggressive": false, "hitpoints": "20", "drops": ["0-1 Lead", "0-1 Milk", "0-1 Potion of Invisibility"], "exp": "0" },
-  { "name": "Witch", "gameID": "minecraft:witch", "aggressive": true, "hitpoints": "26", "drops": ["0-2 Glowstone Dust", "0-2 Redstone Dust", "0-2 Sugar", "0-2 Sticks", "0-2 Spider Eyes", "0-2 Gunpowder", "0-2 Glass Bottles", "0-1 Potion of Healing"], "exp": "5-8" },
-  { "name": "Wither", "gameID": "minecraft:wither", "aggressive": true, "hitpoints": "300", "drops": ["1 Nether Star"], "exp": "50" },
-  { "name": "Wither Skeleton", "gameID": "minecraft:wither_skeleton", "aggressive": true, "hitpoints": "20", "drops": ["0-2 Bones", "0-1 Stone Sword"], "exp": "5" },
-  { "name": "Wolf", "gameID": "minecraft:wolf", "aggressive": false, "hitpoints": "8", "drops": [], "exp": "1-3" },
-  { "name": "Zoglin", "gameID": "minecraft:zoglin", "aggressive": true, "hitpoints": "40", "drops": ["1-3 Rotten Flesh"], "exp": "5" },
-  { "name": "Zombie", "gameID": "minecraft:zombie", "aggressive": true, "hitpoints": "20", "drops": ["0-2 Rotten Flesh", "0-1 Carrot", "0-1 Potato", "Equipped Items"], "exp": "5" },
-  { "name": "Zombie Horse", "gameID": "minecraft:zombie_horse", "aggressive": false, "hitpoints": "53", "drops": ["0-2 Rotten Flesh"], "exp": "1-3" },
-  { "name": "Zombie Villager", "gameID": "minecraft:zombie_villager", "aggressive": true, "hitpoints": "20", "drops": ["0-2 Rotten Flesh"], "exp": "5" },
-  { "name": "Zombified Piglin", "gameID": "minecraft:zombified_piglin", "aggressive": false, "hitpoints": "22", "drops": ["0-1 Rotten Flesh", "0-1 Gold Nugget", "0-1 Golden Sword"], "exp": "6" }
+  {
+    "name": "Axolotl",
+    "gameID": "minecraft:axolotl",
+    "aggressive": false,
+    "hitpoints": "14",
+    "drops": [],
+    "exp": "1-3"
+  },
+  {
+    "name": "Bat",
+    "gameID": "minecraft:bat",
+    "aggressive": false,
+    "hitpoints": "6",
+    "drops": [],
+    "exp": "0"
+  },
+  {
+    "name": "Bee",
+    "gameID": "minecraft:bee",
+    "aggressive": false,
+    "hitpoints": "10",
+    "drops": [],
+    "exp": "1-3"
+  },
+  {
+    "name": "Blaze",
+    "gameID": "minecraft:blaze",
+    "aggressive": true,
+    "hitpoints": "20",
+    "drops": ["0-1 Blaze Rods"],
+    "exp": "10"
+  },
+  {
+    "name": "Cat",
+    "gameID": "minecraft:cat",
+    "aggressive": false,
+    "hitpoints": "10",
+    "drops": ["0-2 String"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Cave Spider",
+    "gameID": "minecraft:cave_spider",
+    "aggressive": true,
+    "hitpoints": "12",
+    "drops": ["0-2 String", "0-1 Spider Eye"],
+    "exp": "5"
+  },
+  {
+    "name": "Chicken",
+    "gameID": "minecraft:chicken",
+    "aggressive": false,
+    "hitpoints": "4",
+    "drops": ["Eggs", "0-2 Feathers", "Raw Chicken"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Cod",
+    "gameID": "minecraft:cod",
+    "aggressive": false,
+    "hitpoints": "3",
+    "drops": ["1 Raw Cod"],
+    "exp": "0"
+  },
+  {
+    "name": "Cow",
+    "gameID": "minecraft:cow",
+    "aggressive": false,
+    "hitpoints": "10",
+    "drops": ["0-2 Leather", "1-3 Raw Beef", "1-3 Steak (Fire Kill)", "Milk (Bucket)"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Creeper",
+    "gameID": "minecraft:creeper",
+    "aggressive": true,
+    "hitpoints": "20",
+    "drops": ["0-2 Gunpowder", "Music Disc (Skeleton Kill)"],
+    "exp": "5"
+  },
+  {
+    "name": "Dolphin",
+    "gameID": "minecraft:dolphin",
+    "aggressive": false,
+    "hitpoints": "10",
+    "drops": ["0-1 Raw Cod"],
+    "exp": "0"
+  },
+  {
+    "name": "Donkey",
+    "gameID": "minecraft:donkey",
+    "aggressive": false,
+    "hitpoints": "15, up to 30",
+    "drops": ["0-2 Leather"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Drowned",
+    "gameID": "minecraft:drowned",
+    "aggressive": false,
+    "hitpoints": "20",
+    "drops": ["0-2 Rotten Flesh"],
+    "exp": "5"
+  },
+  {
+    "name": "Elder Guardian",
+    "gameID": "minecraft:elder_guardian",
+    "aggressive": true,
+    "hitpoints": "80",
+    "drops": ["0-2 Prismarine Shards", "0-1 Prismarine Crystals", "0-1 Raw Fish", "0-1 Wet Sponge"],
+    "exp": "10"
+  },
+  {
+    "name": "Ender Dragon",
+    "gameID": "minecraft:ender_dragon",
+    "aggressive": true,
+    "hitpoints": "200",
+    "drops": ["Dragon Egg"],
+    "exp": "12000"
+  },
+  {
+    "name": "Enderman",
+    "gameID": "minecraft:enderman",
+    "aggressive": true,
+    "hitpoints": "40",
+    "drops": ["0-1 Ender Pearl"],
+    "exp": "5"
+  },
+  {
+    "name": "Endermite",
+    "gameID": "minecraft:endermite",
+    "aggressive": true,
+    "hitpoints": "8",
+    "drops": [],
+    "exp": "1-3"
+  },
+  {
+    "name": "Evoker",
+    "gameID": "minecraft:evoker",
+    "aggressive": true,
+    "hitpoints": "24",
+    "drops": ["0-1 Totem of Undying", "0-1 Emerald"],
+    "exp": "10"
+  },
+  {
+    "name": "Fox",
+    "gameID": "minecraft:fox",
+    "aggressive": false,
+    "hitpoints": "10",
+    "drops": ["0-1 Emerald", "0-1 Feather", "0-1 Egg", "0-1 Leather", "0-1 Cooked Porkchop", "0-1 Wheat", "0-1 Rabbit Hide", "0-1 Rabbit Foot"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Ghast",
+    "gameID": "minecraft:ghast",
+    "aggressive": true,
+    "hitpoints": "10",
+    "drops": ["0-1 Ghast Tear", "0-2 Gunpowder"],
+    "exp": "10"
+  },
+  {
+    "name": "Glow Squid",
+    "gameID": "minecraft:glow_squid",
+    "aggressive": false,
+    "hitpoints": "10",
+    "drops": ["1-3 Glow Ink Sacs"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Goat",
+    "gameID": "minecraft:goat",
+    "aggressive": false,
+    "hitpoints": "10",
+    "drops": [],
+    "exp": "1-3"
+  },
+  {
+    "name": "Guardian",
+    "gameID": "minecraft:guardian",
+    "aggressive": true,
+    "hitpoints": "30",
+    "drops": ["0-2 Prismarine Shards", "0-1 Prismarine Crystals"],
+    "exp": "10"
+  },
+  {
+    "name": "Hoglin",
+    "gameID": "minecraft:hoglin",
+    "aggressive": true,
+    "hitpoints": "40",
+    "drops": ["2-4 Raw Porkchop", "0-2 Leather"],
+    "exp": "5"
+  },
+  {
+    "name": "Horse",
+    "gameID": "minecraft:horse",
+    "aggressive": false,
+    "hitpoints": "15, up to 30",
+    "drops": ["0-2 Leather"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Husk",
+    "gameID": "minecraft:husk",
+    "aggressive": true,
+    "hitpoints": "20",
+    "drops": ["0-2 Rotten Flesh", "0-1 Carrot", "0-1 Potato"],
+    "exp": "5-7"
+  },
+  {
+    "name": "Illusioner",
+    "gameID": "mminecraft:illusioner",
+    "aggressive": true,
+    "hitpoints": "32",
+    "drops": ["0-1 Bow"],
+    "exp": "0"
+  },
+  {
+    "name": "Iron Golem",
+    "gameID": "minecraft:iron_golem",
+    "aggressive": false,
+    "hitpoints": "100",
+    "drops": ["3-5 Iron Ingot", "0-2 Poppy"],
+    "exp": "0"
+  },
+  {
+    "name": "Llama",
+    "gameID": "minecraft:llama",
+    "aggressive": false,
+    "hitpoints": "15, up to 30",
+    "drops": ["0-2 Leather"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Magma Cube",
+    "gameID": "minecraft:magma_cube",
+    "aggressive": true,
+    "hitpoints": "16 / 4 / 1",
+    "drops": ["0-1 Magma Cream"],
+    "exp": "4 / 2 / 1"
+  },
+  {
+    "name": "Mooshroom",
+    "gameID": "minecraft:mooshroom",
+    "aggressive": false,
+    "hitpoints": "10",
+    "drops": ["0-2 Leather", "1-3 Raw Beef", "1-3 Beef (Fire Kill)", "5 Red Mushrooms (Shears)", "Mushroom Stew (Bowl)", "Milk (Bucket)"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Mule",
+    "gameID": "minecraft:mule",
+    "aggressive": false,
+    "hitpoints": "15, up to 30",
+    "drops": ["0-2 Leather"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Ocelot",
+    "gameID": "minecraft:ocelot",
+    "aggressive": false,
+    "hitpoints": "10",
+    "drops": [],
+    "exp": "1-3"
+  },
+  {
+    "name": "Panda",
+    "gameID": "minecraft:panda",
+    "aggressive": false,
+    "hitpoints": "20",
+    "drops": ["0-2 Bamboo"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Parrot",
+    "gameID": "minecraft:parrot",
+    "aggressive": false,
+    "hitpoints": "6",
+    "drops": ["0-2 Feathers"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Phantom",
+    "gameID": "minecraft:phantom",
+    "aggressive": true,
+    "hitpoints": "20",
+    "drops": ["0-1 Phantom Membrane"],
+    "exp": "5"
+  },
+  {
+    "name": "Pig",
+    "gameID": "minecraft:pig",
+    "aggressive": false,
+    "hitpoints": "10",
+    "drops": ["1-3 Raw Porkchops", "1-3 Cooked Porkchops (Fire Kill)"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Piglin",
+    "gameID": "minecraft:piglin",
+    "aggressive": true,
+    "hitpoints": "16",
+    "drops": ["Equipped Items", "Certain gold items, if picked up"],
+    "exp": "5"
+  },
+  {
+    "name": "Piglin Brute",
+    "gameID": "minecraft:piglin_brute",
+    "aggressive": true,
+    "hitpoints": "50",
+    "drops": ["Golden Axe"],
+    "exp": "20-23 (Java) / 10 (Bedrock)"
+  },
+  {
+    "name": "Pillager",
+    "gameID": "minecraft:pillager",
+    "aggressive": true,
+    "hitpoints": "24",
+    "drops": ["0-1 Emerald", "0-1 Crossbow"],
+    "exp": "5-15"
+  },
+  {
+    "name": "Polar Bear",
+    "gameID": "minecraft:polar_bear",
+    "aggressive": false,
+    "hitpoints": "30",
+    "drops": ["0-2 Raw Fish", "0-2 Raw Salmon"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Pufferfish",
+    "gameID": "minecraft:pufferfish",
+    "aggressive": false,
+    "hitpoints": "3",
+    "drops": ["1 Pufferfish"],
+    "exp": "0"
+  },
+  {
+    "name": "Rabbit",
+    "gameID": "minecraft:rabbit",
+    "aggressive": false,
+    "hitpoints": "3",
+    "drops": ["0-1 Raw Rabbit", "0-1 Rabbit Hide", "0-1 Rabbit Foot"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Ravager",
+    "gameID": "minecraft:ravager",
+    "aggressive": true,
+    "hitpoints": "100",
+    "drops": ["Saddle"],
+    "exp": "10"
+  },
+  {
+    "name": "Salmon",
+    "gameID": "minecraft:salmon",
+    "aggressive": false,
+    "hitpoints": "3",
+    "drops": ["1 Raw Salmon"],
+    "exp": "0"
+  },
+  {
+    "name": "Sheep",
+    "gameID": "minecraft:sheep",
+    "aggressive": false,
+    "hitpoints": "8",
+    "drops": ["1 Wool", "0-2 Raw Mutton", "0-2 Cooked Mutton (Fire Kill)"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Shulker",
+    "gameID": "minecraft:shulker",
+    "aggressive": true,
+    "hitpoints": "30",
+    "drops": ["0-1 Shulker Shell"],
+    "exp": "5"
+  },
+  {
+    "name": "Silverfish",
+    "gameID": "minecraft:silverfish",
+    "aggressive": true,
+    "hitpoints": "8",
+    "drops": [],
+    "exp": "5"
+  },
+  {
+    "name": "Skeleton",
+    "gameID": "minecraft:skeleton",
+    "aggressive": true,
+    "hitpoints": "20",
+    "drops": ["0-2 Bones", "0-2 Arrows", "0-1 Bow", "Eqquiped Armor"],
+    "exp": "5-7"
+  },
+  {
+    "name": "Skeleton Horse",
+    "gameID": "minecraft:skeleton_horse",
+    "aggressive": false,
+    "hitpoints": "53",
+    "drops": ["0-2 Bones"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Slime",
+    "gameID": "minecraft:slime",
+    "aggressive": true,
+    "hitpoints": "16 / 4 / 1",
+    "drops": ["0-2 Slimeballs"],
+    "exp": "4 / 2 / 1"
+  },
+  {
+    "name": "Snow Golem",
+    "gameID": "minecraft:snow_golem",
+    "aggressive": false,
+    "hitpoints": "4",
+    "drops": ["1-10 Snowballs"],
+    "exp": "0"
+  },
+  {
+    "name": "Spider",
+    "gameID": "minecraft:spider",
+    "aggressive": true,
+    "hitpoints": "16",
+    "drops": ["0-2 String", "0-1 Spider Eye"],
+    "exp": "5"
+  },
+  {
+    "name": "Squid",
+    "gameID": "minecraft:squid",
+    "aggressive": false,
+    "hitpoints": "10",
+    "drops": ["1-3 Ink Sacs"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Stray",
+    "gameID": "minecraft:stray",
+    "aggressive": true,
+    "hitpoints": "20",
+    "drops": ["0-2 Bones", "0-2 Arrows"],
+    "exp": "5-7"
+  },
+  {
+    "name": "Strider",
+    "gameID": "minecraft:strider",
+    "aggressive": false,
+    "hitpoints": "20",
+    "drops": ["0-5 String"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Trader Llama",
+    "gameID": "minecraft:trader_llama",
+    "aggressive": false,
+    "hitpoints": "15, up to 30",
+    "drops": ["0-2 Leather"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Tropical Fish",
+    "gameID": "minecraft:tropical_fish",
+    "aggressive": false,
+    "hitpoints": "3",
+    "drops": ["1 Tropical Fish"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Turtle",
+    "gameID": "minecraft:turtle",
+    "aggressive": false,
+    "hitpoints": "30",
+    "drops": ["2 Seagrass"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Vex",
+    "gameID": "minecraft:vex",
+    "aggressive": true,
+    "hitpoints": "14",
+    "drops": [],
+    "exp": "3"
+  },
+  {
+    "name": "Villager",
+    "gameID": "minecraft:villager",
+    "aggressive": false,
+    "hitpoints": "20",
+    "drops": [],
+    "exp": "0"
+  },
+  {
+    "name": "Vindicator",
+    "gameID": "minecraft:vindicator",
+    "aggressive": true,
+    "hitpoints": "24",
+    "drops": ["0-1 Emerald"],
+    "exp": "5"
+  },
+  {
+    "name": "Wandering Trader",
+    "gameID": "minecraft:wandering_trader",
+    "aggressive": false,
+    "hitpoints": "20",
+    "drops": ["0-1 Lead", "0-1 Milk", "0-1 Potion of Invisibility"],
+    "exp": "0"
+  },
+  {
+    "name": "Witch",
+    "gameID": "minecraft:witch",
+    "aggressive": true,
+    "hitpoints": "26",
+    "drops": ["0-2 Glowstone Dust", "0-2 Redstone Dust", "0-2 Sugar", "0-2 Sticks", "0-2 Spider Eyes", "0-2 Gunpowder", "0-2 Glass Bottles", "0-1 Potion of Healing"],
+    "exp": "5-8"
+  },
+  {
+    "name": "Wither",
+    "gameID": "minecraft:wither",
+    "aggressive": true,
+    "hitpoints": "300",
+    "drops": ["1 Nether Star"],
+    "exp": "50"
+  },
+  {
+    "name": "Wither Skeleton",
+    "gameID": "minecraft:wither_skeleton",
+    "aggressive": true,
+    "hitpoints": "20",
+    "drops": ["0-2 Bones", "0-1 Stone Sword"],
+    "exp": "5"
+  },
+  {
+    "name": "Wolf",
+    "gameID": "minecraft:wolf",
+    "aggressive": false,
+    "hitpoints": "8",
+    "drops": [],
+    "exp": "1-3"
+  },
+  {
+    "name": "Zoglin",
+    "gameID": "minecraft:zoglin",
+    "aggressive": true,
+    "hitpoints": "40",
+    "drops": ["1-3 Rotten Flesh"],
+    "exp": "5"
+  },
+  {
+    "name": "Zombie",
+    "gameID": "minecraft:zombie",
+    "aggressive": true,
+    "hitpoints": "20",
+    "drops": ["0-2 Rotten Flesh", "0-1 Carrot", "0-1 Potato", "Equipped Items"],
+    "exp": "5"
+  },
+  {
+    "name": "Zombie Horse",
+    "gameID": "minecraft:zombie_horse",
+    "aggressive": false,
+    "hitpoints": "53",
+    "drops": ["0-2 Rotten Flesh"],
+    "exp": "1-3"
+  },
+  {
+    "name": "Zombie Villager",
+    "gameID": "minecraft:zombie_villager",
+    "aggressive": true,
+    "hitpoints": "20",
+    "drops": ["0-2 Rotten Flesh"],
+    "exp": "5"
+  },
+  {
+    "name": "Zombified Piglin",
+    "gameID": "minecraft:zombified_piglin",
+    "aggressive": false,
+    "hitpoints": "22",
+    "drops": ["0-1 Rotten Flesh", "0-1 Gold Nugget", "0-1 Golden Sword"],
+    "exp": "6"
+  }
 ]

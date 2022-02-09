@@ -1,0 +1,307 @@
+[
+  {
+    "name": "Aqua Affinity",
+    "description": "Increases underwater mining speed",
+    "isTreasure": false,
+    "incompatible": [],
+    "levels": ["I"],
+    "validItems": ["Helmet", "Turtle Shell"]
+  },
+  {
+    "name": "Bane of Arthropods",
+    "description": "Increases damage and applies Slowness IV to arthropod mobs (spiders, cave spiders, silverfish, endermites and bees).",
+    "isTreasure": false,
+    "incompatible": ["Smite", "Sharpness"],
+    "levels": ["I", "II", "III", "IV", "V"],
+    "validItems": ["Sword", "Axe"]
+  },
+  {
+    "name": "Blast Protection",
+    "description": "Reduces explosion damage and knockback.",
+    "isTreasure": false,
+    "incompatible": ["Fire Protection", "Protection", "Projectile Protection"],
+    "levels": ["I", "II", "III", "IV"],
+    "validItems": ["Helmet", "Chestplate", "Leggings", "Boots", "Turtle Shell"]
+  },
+  {
+    "name": "Channeling",
+    "description": "Trident 'channels' a bolt of lightning toward a hit entity. Functions only during thunderstorms and if target is unobstructed with opaque blocks.",
+    "isTreasure": false,
+    "incompatible": ["Riptide"],
+    "levels": ["I"],
+    "validItems": ["Trident"]
+  },
+  {
+    "name": "Curse of Binding",
+    "description": "Items cannot be removed from armor slots, except in Creative mode or due to death or breaking.",
+    "isTreasure": true,
+    "incompatible": [],
+    "levels": ["I"],
+    "validItems": ["Helmet", "Chestplate", "Leggings", "Boots", "Elytra", "Pumpkin", "Head", "Turtle Shell"]
+  },
+  {
+    "name": "Curse of Vanishing",
+    "description": "Item destroyed on death.",
+    "isTreasure": true,
+    "incompatible": [],
+    "levels": ["I"],
+    "validItems": ["Helmet", "Chestplate", "Leggings", "Boots", "Pickaxe", "Shovel", "Axe", "Sword", "Hoe", "Fishing Rod", "Bow", "Shears", "Flint and Steel", "Compass", "Carrot on a Stick", "Warped Fungus on a Stick", "Shield", "Elytra", "Pumpkin", "Head", "Trident", "Turtle Shell", "Crossbow"]
+  },
+  {
+    "name": "Depth Strider",
+    "description": "Increases underwater movement speed.",
+    "isTreasure": false,
+    "incompatible": ["Frost Walker"],
+    "levels": ["I", "II", "III"],
+    "validItems": ["Boots"]
+  },
+  {
+    "name": "Efficiency",
+    "description": "Increases tool speed. When applied to an Axe it increases the chance that the axe may stun a shield, with the base chance being 25% and a 5% increase for each level of efficiency.",
+    "isTreasure": false,
+    "incompatible": [],
+    "levels": ["I", "II", "III", "IV", "V"],
+    "validItems": ["Pickaxe", "Shovel", "Axe", "Hoe"]
+  },
+  {
+    "name": "Feather Falling",
+    "description": "Reduces fall damage.",
+    "isTreasure": false,
+    "incompatible": [],
+    "levels": ["I", "II", "III", "IV"],
+    "validItems": ["Boots"]
+  },
+  {
+    "name": "Fire Aspect",
+    "description": "Sets target on fire.",
+    "isTreasure": false,
+    "incompatible": [],
+    "levels": ["I", "II"],
+    "validItems": ["Sword"]
+  },
+  {
+    "name": "Fire Protection",
+    "description": "Reduces fire damage and burn time. Mutually exclusive with other protections.",
+    "isTreasure": false,
+    "incompatible": ["Blast Protection", "Protection", "Projectile Protection"],
+    "levels": ["I", "II", "III", "IV"],
+    "validItems": ["Helmet", "Chestplate", "Leggings", "Boots", "Turtle Shell"]
+  },
+  {
+    "name": "Flame",
+    "description": "Arrows set the target on fire, and ignite TNT if hit.",
+    "isTreasure": false,
+    "incompatible": [],
+    "levels": ["I"],
+    "validItems": ["Bow"]
+  },
+  {
+    "name": "Fortune",
+    "description": "Increases certain block drops. Higher levels increase chances.",
+    "isTreasure": false,
+    "incompatible": ["Silk Touch"],
+    "levels": ["I", "II", "III"],
+    "validItems": ["Pickaxe", "Shovel", "Axe", "Hoe"]
+  },
+  {
+    "name": "Frost Walker",
+    "description": "Turns water beneath the player into frosted ice and prevents the damage the player would take from standing on magma blocks and campfires.",
+    "isTreasure": true,
+    "incompatible": ["Depth Strider"],
+    "levels": ["I", "II"],
+    "validItems": ["Boots"]
+  },
+  {
+    "name": "Impaling",
+    "description": "Trident deals additional damage to mobs that spawn naturally in the ocean. In Bedrock Edition, having impaling on a trident also deals extra damage to players or mobs in water or rain.",
+    "isTreasure": false,
+    "incompatible": [],
+    "levels": ["I", "II", "III", "IV", "V"],
+    "validItems": ["Trident"]
+  },
+  {
+    "name": "Infinity",
+    "description": "Shooting consumes no regular arrows. Does not include Tipped Arrows or Spectral Arrows.",
+    "isTreasure": false,
+    "incompatible": ["Mending"],
+    "levels": ["I"],
+    "validItems": ["Bow"]
+  },
+  {
+    "name": "Knockback",
+    "description": "Increases knockback.",
+    "isTreasure": false,
+    "incompatible": [],
+    "levels": ["I", "II"],
+    "validItems": ["Sword"]
+  },
+  {
+    "name": "Looting",
+    "description": "Increases mob loot. Higher levels increase loot dropped.",
+    "isTreasure": false,
+    "incompatible": [],
+    "levels": ["I", "II", "III"],
+    "validItems": ["Sword"]
+  },
+
+  {
+    "name": "Loyalty",
+    "description": "Trident returns after being thrown. Higher levels reduce return time.",
+    "isTreasure": false,
+    "incompatible": ["Riptide"],
+    "levels": ["I", "II", "III"],
+    "validItems": ["Trident"]
+  },
+  {
+    "name": "Luck of the Sea",
+    "description": "Increases rate of good loot (enchanting books, etc.). Higher Levels Increase chance.",
+    "isTreasure": false,
+    "incompatible": [],
+    "levels": ["I", "II", "III"],
+    "validItems": ["Fishing Rod"]
+  },
+  {
+    "name": "Lure",
+    "description": "Decreases wait time until fish/junk/loot 'bites'. Higher Levels decrease wait time.",
+    "isTreasure": false,
+    "incompatible": [],
+    "levels": ["I", "II", "III"],
+    "validItems": ["Fishing Rod"]
+  },
+  {
+    "name": "Mending",
+    "description": "XP orbs gained are used to repair the item instead of adding experience to bar.",
+    "isTreasure": true,
+    "incompatible": ["Infinity"],
+    "levels": ["I"],
+    "validItems": ["Helmet", "Chestplate", "Leggings", "Boots", "Pickaxe", "Shovel", "Axe", "Sword", "Hoe", "Fishing Rod", "Bow", "Shears", "Flint and Steel", "Carrot on a Stick", "Warped Fungus on a Stick", "Shield", "Elytra", "Trident", "Turtle Shell", "Crossbow"]
+  },
+  {
+    "name": "Multishot",
+    "description": "Shoot 3 arrows in a spread at the cost of one; only one arrow can be recovered.",
+    "isTreasure": false,
+    "incompatible": ["Pirecing"],
+    "levels": ["I"],
+    "validItems": ["Crossbow"]
+  },
+  {
+    "name": "Piercing",
+    "description": "Arrows pass through multiple entities and Shields; arrows can be recovered after passing through entities. *Available only to the crossbow.",
+    "isTreasure": false,
+    "incompatible": ["Multishot"],
+    "levels": ["I", "II", "III", "IV"],
+    "validItems": ["Crossbow"]
+  },
+  {
+    "name": "Power",
+    "description": "Increases arrow damage.",
+    "isTreasure": false,
+    "incompatible": [],
+    "levels": ["I", "II", "III", "IV", "V"],
+    "validItems": ["Bow"]
+  },
+  {
+    "name": "Projectile Protection",
+    "description": "Reduces projectile damage such as damage from arrows, thrown tridents, ghast and blaze fireballs, etc.",
+    "isTreasure": false,
+    "incompatible": ["Protection", "Blast Protection", "Fire Protection"],
+    "levels": ["I", "II", "III", "IV"],
+    "validItems": ["Helmet", "Chestplate", "Leggings", "Boots", "Turtle Shell"]
+  },
+  {
+    "name": "Protection",
+    "description": "Reduces most types of damage by 4%‌[JE only] (or 5%‌[BE only] ) for each level.",
+    "isTreasure": false,
+    "incompatible": ["Blast Protection", "Fire Protection", "Projectile Protection"],
+    "levels": ["I", "II", "III", "IV"],
+    "validItems": ["Helmet", "Chestplate", "Leggings", "Boots", "Turtle Shell"]
+  },
+  {
+    "name": "Punch",
+    "description": "Increases arrow knockback.",
+    "isTreasure": false,
+    "incompatible": [],
+    "levels": ["I", "II"],
+    "validItems": ["Bow"]
+  },
+  {
+    "name": "Quick Charge",
+    "description": "Decreases crossbow charging time.",
+    "isTreasure": false,
+    "incompatible": [],
+    "levels": ["I", "II", "III"],
+    "validItems": ["Crossbow"]
+  },
+  {
+    "name": "Respiration",
+    "description": "Extends underwater breathing time. Stacks with a Turtle Shell",
+    "isTreasure": false,
+    "incompatible": [],
+    "levels": ["I", "II", "III"],
+    "validItems": ["Helmet", "Turtle Shell"]
+  },
+  {
+    "name": "Riptide",
+    "description": "Trident launches player with itself when thrown. Functions only in water or rain.",
+    "isTreasure": false,
+    "incompatible": ["Channeling", "Loyalty"],
+    "levels": ["I", "II", "III"],
+    "validItems": ["Trident"]
+  },
+  {
+    "name": "Sharpness",
+    "description": "Increases damage for melee weapons.",
+    "isTreasure": false,
+    "incompatible": ["Bane of Arthropods", "Smite"],
+    "levels": ["I", "II", "III", "IV", "V"],
+    "validItems": ["Sword", "Axe"]
+  },
+  {
+    "name": "Silk Touch",
+    "description": "Mined blocks drop themselves, with a few exceptions.",
+    "isTreasure": false,
+    "incompatible": ["Fortune"],
+    "levels": ["I"],
+    "validItems": ["Pickaxe", "Shovel", "Axe", "Hoe", "Shears"]
+  },
+  {
+    "name": "Smite",
+    "description": "Increases damage to undead mobs.",
+    "isTreasure": false,
+    "incompatible": ["Bane of Arthropods", "Sharpness"],
+    "levels": ["I", "II", "III", "IV", "V"],
+    "validItems": ["Sword", "Axe"]
+  },
+  {
+    "name": "Soul Speed",
+    "description": "Increases walking speed on Soul Sand or Soul Soil, but damages the Boots over time",
+    "isTreasure": true,
+    "incompatible": [],
+    "levels": ["I", "II", "III"],
+    "validItems": ["Boots"]
+  },
+  {
+    "name": "Sweeping Edge",
+    "description": "Increases sweeping attack damage.",
+    "isTreasure": false,
+    "incompatible": [],
+    "levels": ["I", "II", "III"],
+    "validItems": ["Sword"]
+  },
+  {
+    "name": "Thorns",
+    "description": "Reflects some of the damage taken when hit, at the cost of reducing durability with each proc.",
+    "isTreasure": false,
+    "incompatible": [],
+    "levels": ["I", "II", "III"],
+    "validItems": ["Helmet", "Chestplate", "Leggings", "Boots", "Turtle Shell"]
+  },
+  {
+    "name": "Unbreaking",
+    "description": "Reduces the chance of an item taking damage. Higher levels reduce the chance further.",
+    "isTreasure": false,
+    "incompatible": [],
+    "levels": ["I", "II", "III"],
+    "validItems": ["Helmet", "Chestplate", "Leggings", "Boots", "Pickaxe", "Shovel", "Axe", "Sword", "Hoe", "Fishing Rod", "Bow", "Trident", "Turtle Shell", "Crossbow", "Shears", "Flint and Steel", "Shield", "Carrot on a Stick", "Warped Fungus on a Stick", "Elytra"]
+  }
+]
