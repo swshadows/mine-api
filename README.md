@@ -4,7 +4,9 @@
 
 ### :warning: _Ainda em desenvolvimento_ :warning:
 
-![banner_img](/public/assets/meta/meta_banner.png)
+<div align="center">
+    <img src="public/assets/meta/meta_preview.png">
+</div>
 
 ## To-Dos
 
